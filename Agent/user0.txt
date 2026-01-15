@@ -1,0 +1,4 @@
+
+In time 120's experience:  The system flags accounts with high-frequency, patterned transactions (e.g., fixed decrements or bursts) and lack of idle periods, unlike legitimate users’ sporadic, low-volume activity.
+
+In time 150's experience:  The system flags accounts with high-frequency bursts, fixed decrement patterns, and no idle periods, unlike legitimate users’ sporadic, low-volume activity.

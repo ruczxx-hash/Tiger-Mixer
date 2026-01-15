@@ -1,0 +1,56 @@
+
+In time 70's experience:  The system flags accounts with frequent, high-volume transactions (near 0.25 ETH/min), especially sustained bursts, unlike your sparse, low-volume pattern.
+
+In time 100's experience:  The system intercepts accounts with frequent, high-volume bursts (≥0.2 ETH/min), especially sustained activity, unlike sparse, low-volume, or irregular patterns.
+
+In time 130's experience:  The system flags accounts with frequent high-volume bursts (≥0.2 ETH/min), especially sustained or clustered near 0.25 ETH, unlike steady low-volume patterns.
+
+In time 170's experience:  The system flags sustained high-volume bursts (≥0.2 ETH/min), especially near 0.25 ETH, and clustered activity, unlike steady low-volume or sparse transaction patterns.
+
+In time 150's experience:  The system flags sustained high-frequency transactions (≥0.2 ETH/min) without idle gaps, unlike sporadic low-volume legitimate activity; brief bursts followed by pauses evade detection.
+
+In time 300's experience:  The system flags sustained high-frequency transactions (≥0.2 ETH/min) without idle gaps; brief bursts followed by pauses evade detection.
+
+In time 140's experience:  The system flags accounts with frequent, high-volume transactions (near 0.25 ETH/min), especially sustained bursts without irregular gaps or low-activity intervals typical of legitimate mixing behavior.
+
+In time 230's experience:  The system flags sustained high-volume bursts (≥0.2 ETH/min) without low-activity gaps, unlike legitimate users' sparse, irregular patterns.
+
+In time 190's experience:  The system flags accounts with frequent, high-volume transactions (near 0.25 ETH/min), especially sustained bursts, unlike sparse or low-volume patterns of legitimate users.
+
+In time 380's experience:  The system flags sustained high-frequency transactions (≥0.2 ETH/min) in bursts, especially with minimal gaps, unlike sparse, steady 0.01 ETH/min patterns of legitimate users.
+
+In time 140's experience:  The system flags accounts with frequent, high-volume transactions (near 0.25 ETH/min) and sudden bursts after inactivity, unlike steady, low-frequency patterns of non-intercepted users.
+
+In time 140's experience:  The system flags accounts with frequent, high-volume transactions (near 0.25 ETH/min) and sudden bursts, especially lacking periodic low-activity intervals typical of legitimate users.
+
+In time 0's experience:  The system flags accounts with frequent, high-volume transactions (near 0.25 ETH) and insufficient idle periods, unlike sporadic, low-volume legitimate users.
+
+In time 160's experience:  The system flags accounts with sustained high-frequency transactions (near 0.25 ETH/min) and insufficient idle periods, unlike legitimate users who transact sporadically and in smaller volumes.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions near 0.25 ETH/minute, especially after inactivity, unlike low-volume, sporadic legitimate usage patterns.
+
+In time 0's experience:  The system flags accounts with bursts of high-frequency transactions (near 0.25 ETH/min) following prolonged inactivity, unlike legitimate users' low, sporadic activity.
+
+In time 150's experience:  The system flags accounts with sustained high-volume transactions (≥0.15 ETH/min) without prolonged inactivity, especially early in activity or lacking gradual ramp-up/down patterns typical of legitimate users.
+
+In time 220's experience:  The system flags accounts with sustained high-volume transactions (≥0.15 ETH/min) lacking gradual ramp-up/down and prolonged inactivity periods, especially early in activity.
+
+In time 160's experience:  The system flags accounts with sustained high-frequency transactions (≥0.2 ETH/min) over extended periods or abrupt large-volume bursts, unlike legitimate users’ low, sporadic activity.
+
+In time 0's experience:  The system intercepts accounts with sustained high-frequency transactions (≥0.2 ETH/min) or abrupt bursts, unlike low, sporadic legitimate activity; recent interceptions show even moderate but clustered spikes trigger scrutiny.
+
+In time 160's experience:  The system flags accounts with frequent high-volume transactions (near 0.25 ETH/min), lacking idle periods, and exhibiting bursty patterns unlike gradual, low-frequency legitimate usage.
+
+In time 170's experience:  The system intercepts accounts with sustained high-frequency bursts (≥0.2 ETH/min), minimal idle time, and transaction patterns inconsistent with gradual, low-volume legitimate use.
+
+In time 180's experience:  The system intercepts accounts with sustained high-frequency bursts (≥0.2 ETH/min), minimal idle time, and inconsistent gradual transaction patterns.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency bursts (≥20 tx/min), especially when clustered without prolonged idle gaps (>15 mins), unlike low-volume, sporadic legitimate patterns.
+
+In time 0's experience:  The system intercepts accounts with sustained high-frequency bursts (≥20 tx/min) and minimal idle time, unlike sporadic, low-volume legitimate activity.
+
+In time 290's experience:  The system flags accounts with sustained high-frequency transactions (≥0.2 ETH/min) and insufficient idle gaps, unlike sporadic, low-volume legitimate patterns.
+
+In time 300's experience:  The system intercepts accounts with sustained high-frequency transactions (≥0.2 ETH/min) and insufficient idle gaps, unlike sporadic, low-volume legitimate patterns.
+
+In time 290's experience:  The system flags accounts with bursty high-volume transactions (near 0.25 ETH/min), lacking natural idle gaps, unlike your sparse, low-frequency pattern mimicking legitimate users.

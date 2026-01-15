@@ -1,0 +1,54 @@
+
+In time 0's experience:  The system’s interception mechanism appears to target accounts exhibiting transaction patterns that lack the behavioral entropy characteristic of legitimate users, focusing on three key anomalies: (1) **sustained high throughput without natural dormancy**—specifically, sequences with repeated bursts exceeding 0.2 ETH/minute (i.e., >20 transactions/minute) over extended durations (e.g., >60 consecutive minutes) without prolonged idle gaps (≥20 minutes of zero activity); (2) **artificially uniform low-frequency activity**—such as consistently executing 1–3 transactions per minute across dozens of consecutive minutes with minimal variation and no significant pauses, which mimics automation rather than human-like sporadic behavior; and (3) **abrupt large-scale outflows early in an account’s lifecycle**, particularly when >0.2 ETH is transferred within the first 10–15 minutes without prior low-volume “warm-up” activity. Crucially, legitimate users display irregular timing, frequent long idle periods (often 30+ minutes), and moderate peak volumes (<0.2 ETH/minute), while intercepted illegal users—whether high-volume (like user0, user2, user4, user6) or low-and-steady (like user1, user3, user5, user7)—fail to replicate this stochastic intermittency. The latest intercepted sequence (user9) further reveals that even sparse, irregular transactions can trigger interception if they exhibit **clustered micro-bursts at non-random intervals** (e.g., repeated 5–20 transaction spikes at fixed or semi-regular gaps) combined with cumulative volume exceeding thresholds over multi-hour windows, suggesting the system now also analyzes longer-term behavioral consistency and deviation from expected mixing-user entropy, not just short-term intensity.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions (≥20/minute) over consecutive minutes, especially without intermittent low-activity periods typical of legitimate users.
+
+In time 0's experience:  The system flags accounts with frequent high-volume bursts (≥20 tx/min), sustained activity without idle gaps, and patterns deviating from sporadic, low-volume legitimate user behavior.
+
+In time 0's experience:  The system flags accounts with frequent high-volume bursts (≥20 tx/min), prolonged activity without extended idle periods (>15 mins), or inconsistent transaction patterns deviating from typical low-frequency, small-batch legitimate behavior.
+
+In time 0's experience:  System intercepts accounts with ≥20 tx/min bursts, sustained activity without >15-min idle gaps, or patterns deviating from low-frequency, small-batch norms.
+
+In time 0's experience:  The system flags accounts with frequent high-volume bursts (≥20 tx/min), prolonged activity without extended idle periods (>15 minutes), or inconsistent transaction patterns deviating from typical sporadic, low-volume legitimate behavior.
+
+In time 0's experience:  The system flags accounts with frequent high-volume bursts (≥20 tx/min), sustained activity without prolonged idle periods (>15 mins), and transaction patterns inconsistent with sporadic, low-volume legitimate user behavior.
+
+In time 230's experience:  The system flags accounts with frequent high-volume bursts (≥20 tx/min), sustained activity without idle gaps, or patterns deviating from sporadic, low-volume legitimate user behavior.
+
+In time 230's experience:  The system intercepts accounts exhibiting frequent bursts ≥20 tx/min, sustained high-volume activity without idle periods, or transaction patterns inconsistent with sporadic, low-volume legitimate behavior.
+
+In time 240's experience:  The system flags accounts with sustained high-volume bursts (≥20 tx/min) and insufficient idle periods, unlike sporadic, low-volume legitimate users.
+
+In time 210's experience:  The system flags accounts with frequent high-volume bursts (≥20 tx/min), sustained activity without idle gaps, and patterns deviating from sporadic, low-volume legitimate user behavior.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions (20–25/minute) and insufficient idle periods, unlike sporadic, low-volume legitimate users.
+
+In time 220's experience:  The system flags accounts with frequent high-volume bursts (≥20 tx/min), sustained activity without idle gaps, or patterns deviating from sporadic, low-volume legitimate user behavior.
+
+In time 230's experience:  The system intercepts accounts exhibiting frequent bursts ≥20 tx/min, sustained high-volume activity without idle periods, or patterns inconsistent with sporadic, low-volume legitimate behavior.
+
+In time 180's experience:  The system flags accounts with sustained high-frequency bursts (≥10 tx/min) over consecutive minutes, especially without intervening idle periods, unlike sporadic, low-volume legitimate activity.
+
+In time 0's experience:  The system flags sustained high-frequency bursts (≥10 tx/min) over consecutive minutes without idle gaps, unlike sporadic or low-volume patterns.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency bursts (≥20 tx/min) and insufficient idle gaps, unlike sporadic, low-volume legitimate users.
+
+In time 0's experience:  The system flags accounts with frequent bursts of ≥20 transactions/minute, especially when sustained or clustered, unlike low-volume, sporadic legitimate patterns.
+
+In time 0's experience:  The system flags accounts with frequent bursts of ≥20 transactions/minute, especially when sustained, clustered, or followed by prolonged inactivity, unlike low-volume, evenly spaced legitimate activity.
+
+In time 0's experience:  The system flags accounts with frequent bursts of ≥20 transactions/minute, especially when clustered in short intervals or showing cyclical high-volume patterns unlike sporadic legitimate use.
+
+In time 0's experience:  The system flags accounts with frequent bursts of ≥20 transactions/minute, especially when clustered or cyclical, unlike sporadic legitimate use.
+
+In time 0's experience:  The system flags accounts with frequent bursts of ≥20 transactions/minute, especially when clustered, cyclical, or followed by prolonged inactivity, unlike sporadic or low-frequency legitimate use.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency bursts (≥20 tx/min) over multiple consecutive minutes, especially without prolonged inactivity periods typical of legitimate low-volume users.
+
+In time 0's experience:  The system flags accounts with repeated high-frequency bursts (≥20 tx/min) across non-consecutive minutes, especially when lacking extended inactivity periods typical of low-volume legitimate users.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency bursts (≥20 tx/min) and minimal idle time, unlike sporadic, low-volume legitimate users.
+
+In time 0's experience:  The system intercepts accounts exhibiting sustained high-frequency bursts (≥20 tx/min) with minimal idle periods, unlike sporadic or low-volume patterns typical of legitimate users.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency bursts (≥20 tx/min) and insufficient idle gaps, unlike sporadic, low-volume legitimate users.

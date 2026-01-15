@@ -1,0 +1,50 @@
+
+In time 0's experience:  The system’s interception mechanism appears to prioritize behavioral anomalies that deviate significantly from the low-intensity, sporadic patterns typical of legitimate users. Key updated indicators include: (1) **sustained high transaction rates**—particularly sequences of ≥15 transactions per minute over 5 or more consecutive minutes without meaningful pauses, especially within the first 60 minutes of activity; (2) **high temporal density with minimal entropy**—illegal users exhibit mechanical regularity (e.g., repeated 20–25 tx/min blocks) rather than the irregular, bursty-low rhythm of legitimate actors; (3) **rapid cumulative outflow**—transferring >8–10 ETH within 90 minutes, often in fixed 0.01 ETH increments, signals automated laundering; (4) **bimodal activity cycles**—long dormancy (e.g., 50+ minutes of zero activity) followed by sudden, intense reactivation is highly suspicious, whereas legitimate users show gradual or isolated bursts; and (5) **absence of micro-transactions during active phases**—unlike legitimate users who frequently mix small (1–3 tx) and moderate volumes, intercepted accounts rarely intersperse low-volume minutes during high-output periods. Notably, even if total volume is modest, **concentrated bursts exceeding 0.2 ETH/min for multiple consecutive minutes**—especially early in the session—trigger scrutiny, as do patterns mimicking "batch processing" (e.g., user8’s rigid 30-tx/min for 10 straight minutes). The latest intercepted sequence (user9) further reveals that **sporadic but escalating bursts culminating in large single-minute outputs (e.g., ≥15 tx) after prolonged inactivity** can also flag accounts, suggesting the system now weights *late-stage intensity spikes* following dormancy as high-risk.
+
+In time 0's experience:  The system flags sustained high-frequency transactions (≥0.2 ETH/min), abrupt bursts followed by prolonged inactivity, and patterns deviating from legitimate users' sporadic, low-volume behavior.
+
+In time 0's experience:  The system flags sustained high-frequency bursts (≥0.2 ETH/min), abrupt activity spikes followed by prolonged inactivity, and transaction patterns deviating from legitimate users' sporadic, low-volume behavior.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions (near 0.25 ETH/min), abrupt bursts followed by long inactivity, or patterns deviating from legitimate users' sporadic, low-volume behavior.
+
+In time 0's experience:  The system intercepts accounts exhibiting sustained high-frequency transactions (≥0.2 ETH/min), abrupt bursts followed by prolonged inactivity, or transaction patterns inconsistent with typical low-volume, sporadic legitimate user behavior.
+
+In time 0's experience:  The system flags sustained high-frequency transactions (≥0.2 ETH/min), abrupt bursts followed by prolonged inactivity, and patterns deviating from legitimate users’ sporadic, low-volume behavior.
+
+In time 0's experience:  The system flags sustained high-volume bursts (≥0.2 ETH/min), abrupt activity spikes after long inactivity, and transaction patterns deviating from typical low-frequency, irregular legitimate user behavior.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions (near 0.25 ETH/min), abrupt bursts followed by long inactivity, or patterns distinct from legitimate users' low, sporadic activity.
+
+In time 0's experience:  The system flags accounts with sustained high-volume transactions (≥0.2 ETH/min) over long durations without sufficient idle periods, especially lacking the low-frequency bursts typical of legitimate users.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions (≥0.2 ETH/min) over long durations, especially lacking idle periods seen in legitimate users.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions (≥0.2 ETH/min) over extended periods without prolonged idle intervals typical of legitimate users.
+
+In time 0's experience:  The system flags accounts with sustained high-volume bursts (≥0.2 ETH/min) or irregular, clustered transaction spikes inconsistent with low-frequency legitimate patterns.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions near 0.25 ETH/minute, abrupt bursts followed by prolonged inactivity, or patterns deviating significantly from typical low-volume, sporadic legitimate usage.
+
+In time 0's experience:  The system intercepts accounts with sustained high-frequency transactions near 0.25 ETH/min, abrupt bursts followed by long inactivity, or patterns deviating from typical low-volume, sporadic legitimate usage.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency bursts (≥20 tx/min) over extended periods, especially without prolonged inactivity gaps typical of legitimate users.
+
+In time 0's experience:  The system flags accounts with frequent ≥20 tx/min bursts, especially lacking long inactive periods (>15 mins) common among legitimate users.
+
+In time 0's experience:  The system flags accounts with frequent ≥20 tx/min bursts lacking long (>15-min) inactive periods, especially when activity is sustained or clustered without natural breaks typical of legitimate users.
+
+In time 20's experience:  The system flags accounts with bursty high-frequency transactions (e.g., ≥8 in a minute) or sudden large-volume spikes inconsistent with gradual, low-frequency patterns of legitimate users.
+
+In time 40's experience:  The system flags accounts with bursty transactions (≥8/min) or abrupt volume spikes inconsistent with gradual, low-frequency legitimate patterns.
+
+In time 0's experience:  The system flags accounts with frequent high-volume bursts (≥20 tx/min), prolonged inactivity after activity, or inconsistent transaction rhythms deviating from typical low-frequency, sporadic legitimate patterns.
+
+In time 0's experience:  System intercepts accounts with high-frequency bursts (≥20 tx/min), prolonged inactivity post-activity, or transaction rhythms inconsistent with low-frequency, sporadic legitimate usage patterns.
+
+In time 0's experience:  The system flags accounts with sustained high-volume bursts (≥0.2 ETH/min), especially when clustered without prolonged inactivity, unlike legitimate users' sparse, low-frequency patterns.
+
+In time 0's experience:  The system flags accounts with frequent, high-volume bursts (≥0.2 ETH/min) clustered closely without long inactivity periods, unlike sparse, low-frequency legitimate patterns.
+
+In time 190's experience:  The system flags accounts with sustained high-frequency transactions near the 0.25 ETH/minute cap, especially when exhibiting bursty, irregular patterns inconsistent with low-volume legitimate users.
+
+In time 0's experience:  The system flags accounts with sustained high-frequency transactions (≥0.2 ETH/min) or abrupt bursts inconsistent with low, steady legitimate usage patterns.

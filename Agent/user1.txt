@@ -1,0 +1,4 @@
+
+In time 180's experience:  The system flags accounts with high-frequency bursts (e.g., ≥10 tx/min) or sustained near-max volume (≥0.2 ETH/min), especially after inactivity, unlike legitimate users’ steady, low-volume patterns.
+
+In time 210's experience:  The system intercepts accounts exhibiting high-frequency bursts (≥10 tx/min) or sustained high volume (≥0.2 ETH/min), especially following inactivity periods, deviating from steady, low-volume legitimate usage patterns.

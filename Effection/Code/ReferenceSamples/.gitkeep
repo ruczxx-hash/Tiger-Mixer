@@ -1,0 +1,2 @@
+# 此文件用于确保 ReferenceSamples 文件夹被版本控制系统跟踪
+# 参考样本文件（.json）通常由程序运行时生成，建议添加到 .gitignore

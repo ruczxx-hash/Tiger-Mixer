@@ -1,0 +1,66 @@
+
+In time 70's experience:  The system flags accounts with high-frequency, burst-like transactions (e.g., >10 in a minute) or sudden activity spikes after prolonged inactivity, unlike steady low-frequency patterns.
+
+In time 120's experience:  The system intercepts accounts exhibiting high-frequency bursts (>10 tx/min), sudden spikes after inactivity, or irregular large-volume patterns, unlike steady low-frequency transactions.
+
+In time 80's experience:  The system flags accounts with high-frequency, burst-like transactions (e.g., ≥8 in one minute) or sudden intense activity after inactivity, unlike steady low-volume patterns.
+
+In time 90's experience:  The system intercepts accounts exhibiting high-frequency bursts (≥8 tx/min), sudden activity after prolonged inactivity, or inconsistent transaction patterns deviating from steady low-volume behavior.
+
+In time 340's experience:  The system intercepts accounts with high-frequency bursts (≥8 tx/min), sudden post-inactivity spikes, or deviations from consistent low-volume patterns.
+
+In time 160's experience:  The system flags accounts with sudden bursts of high-frequency transactions (e.g., ≥6 per minute) after prolonged inactivity, especially if transaction volume spikes abruptly without gradual buildup.
+
+In time 250's experience:  The system flags accounts with abrupt, high-frequency bursts (≥6/min) after inactivity, especially without gradual volume increase or consistent low-frequency patterns preceding the spike.
+
+In time 140's experience:  The system flags accounts with high-frequency, uniform 0.01 ETH transactions lacking natural pauses or behavioral diversity, especially sustained bursts exceeding typical user patterns.
+
+In time 240's experience:  The system flags sustained high-frequency 0.01 ETH transactions without behavioral variation or natural pauses, especially uniform bursts exceeding typical user activity patterns.
+
+In time 160's experience:  The system flags accounts with high-frequency, consistent 0.01 ETH transactions lacking natural pauses or volume variation, unlike legitimate users' sporadic, low-volume patterns.
+
+In time 120's experience:  The system flags accounts with uniform, high-frequency 0.01 ETH transactions lacking behavioral variation or idle periods typical of legitimate users.
+
+In time 120's experience:  The system flags accounts with high-frequency, uniform 0.01 ETH transactions lacking natural pauses or volume variation, unlike legitimate users' sporadic, low-volume activity.
+
+In time 0's experience:  The system flags accounts with high-frequency, burst-like transactions (e.g., ≥20 in a minute) followed by prolonged inactivity, indicating structured mixing rather than organic usage.
+
+In time 130's experience:  The system flags accounts with high-frequency, uniform 0.01 ETH transactions in rapid succession, especially without behavioral variation or delays, indicating automated laundering patterns.
+
+In time 170's experience:  The system flags high-frequency, uniform 0.01 ETH transactions with consistent timing and no behavioral variation, suggesting automated laundering.
+
+In time 140's experience:  The system flags accounts with sudden bursts of high-frequency transactions (e.g., ≥10 in a minute) followed by abrupt drops, especially if repeated across non-consecutive time blocks.
+
+In time 150's experience:  The system flags accounts with repeated high-frequency bursts (≥10 tx/min) followed by sharp drops, especially when patterns recur across disjoint time intervals.
+
+In time 180's experience:  The system flags accounts exhibiting recurring high-frequency bursts (≥10 tx/min) followed by abrupt drops, especially when such patterns repeat across distinct time intervals.
+
+In time 130's experience:  The system flags accounts with high-frequency, uniform 0.01 ETH transactions lacking natural behavioral variation or delays typical of legitimate users.
+
+In time 170's experience:  The system flags accounts with bursty, high-frequency transactions (e.g., ≥10 in one minute) or sudden large-volume transfers inconsistent with gradual, low-frequency patterns of legitimate users.
+
+In time 0's experience:  The system flags accounts with high-frequency, burst-like 0.01 ETH transactions lacking natural pauses or behavioral diversity seen in legitimate users.
+
+In time 0's experience:  The system flags accounts with high-frequency, burst-like 0.01 ETH transactions lacking natural pauses or behavioral diversity seen in legitimate users.
+
+In time 0's experience:  The system intercepts accounts exhibiting high-frequency, burst-like 0.01 ETH transactions without natural pauses or behavioral diversity typical of legitimate users.
+
+In time 160's experience:  The system flags accounts with high-frequency, large-volume transactions in short bursts, especially those exceeding typical user patterns or lacking transactional diversity.
+
+In time 0's experience:  The system intercepts accounts with bursty, high-frequency transactions (e.g., ≥20 in a minute), especially when sustained or lacking intermittent low-activity periods typical of legitimate users.
+
+In time 0's experience:  The system prioritizes intercepting accounts with sustained bursts of ≥20 transactions/minute, especially without prolonged low-activity intervals, unlike legitimate users’ sparse, irregular patterns.
+
+In time 190's experience:  The system flags accounts with frequent high-volume bursts (≥0.12 ETH/min), especially sustained or clustered large transfers, unlike gradual, low-frequency patterns of non-intercepted users.
+
+In time 210's experience:  The system flags sustained high-frequency bursts (≥0.12 ETH/min), especially clustered large transfers, unlike gradual, low-volume patterns.
+
+In time 210's experience:  The system intercepts sustained high-frequency bursts (≥0.12 ETH/min), especially clustered large transfers, unlike gradual, low-volume, or intermittent patterns typical of legitimate users.
+
+In time 230's experience:  The system flags accounts with high-frequency, large-volume transactions in short bursts, especially those lacking the gradual ramp-up/down pattern typical of legitimate mixing behavior.
+
+In time 240's experience:  The system intercepts accounts with sudden high-frequency bursts lacking gradual ramp-up/down, especially those transacting large volumes irregularly unlike legitimate mixing patterns.
+
+In time 340's experience:  The system intercepts accounts exhibiting sudden high-frequency bursts without gradual ramp-up/down, especially those with irregular large-volume transactions deviating from typical mixing patterns.
+
+In time 260's experience:  The system flags accounts with high-frequency, large-volume bursts (e.g., >20 tx/min) or sudden spikes after inactivity, unlike your steady, low-rate pattern.

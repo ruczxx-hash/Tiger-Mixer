@@ -1,0 +1,93 @@
+This file contains messages produced while configuring
+  pari-2.15.4 
+to aid debugging if Configure makes a mistake. Command line was
+  > ./Configure 
+
+/usr/bin/gcc -o linux-x86_64-ansi1056499 ansi.c
+/usr/bin/gcc -o linux-x86_64-gnu1056499 gnu.c
+/usr/bin/gcc -ffp-contract=off -o linux-x86_64-gnu1056499 gnu.c
+/usr/bin/gcc -fno-strict-aliasing -o linux-x86_64-gnu1056499 gnu.c
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing endian.c -o linux-x86_64-endian1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_sse2.c -o linux-x86_64-tmp1056499 -lm
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_avx.c -o linux-x86_64-tmp1056499 -lm
+has_avx.c: In function ‘main’:
+has_avx.c:17:3: error: can’t convert a vector of type ‘bit_array’ {aka ‘__vector(4) long unsigned int’} to type ‘long unsigned int’ which has different size
+   17 |   unsigned long t = TEST(x&y);
+      |   ^~~~~~~~
+has_avx.c:17:3: error: can’t convert a vector of type ‘bit_array’ {aka ‘__vector(4) long unsigned int’} to type ‘long unsigned int’ which has different size
+has_avx.c:17:3: error: can’t convert a vector of type ‘bit_array’ {aka ‘__vector(4) long unsigned int’} to type ‘long unsigned int’ which has different size
+has_avx.c:17:3: error: can’t convert a vector of type ‘bit_array’ {aka ‘__vector(4) long unsigned int’} to type ‘long unsigned int’ which has different size
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_exp2.c -o linux-x86_64-tmp1056499 -lm
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_log2.c -o linux-x86_64-tmp1056499 -lm
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_rint.c -o linux-x86_64-tmp1056499 -lm
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_strftime.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_getrusage.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_gettimeofday.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_sigaction.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_TIOCGWINSZ.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_getrlimit.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_stat.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_vsnprintf.c -o linux-x86_64-tmp1056499
+has_vsnprintf.c: In function ‘f’:
+has_vsnprintf.c:6:19: warning: ‘__builtin_vsnprintf’ output truncated before the last format character [-Wformat-truncation=]
+    6 |   vsnprintf(s,1," ",ap); return 0;
+      |                   ^
+In file included from /usr/include/stdio.h:867,
+                 from has_vsnprintf.c:1:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:80:10: note: ‘__builtin_vsnprintf’ output 2 bytes into a destination of size 1
+   80 |   return __builtin___vsnprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   81 |         __bos (__s), __fmt, __ap);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_mmap.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_waitpid.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_setsid.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_getenv.c -o linux-x86_64-tmp1056499
+has_getenv.c: In function ‘main’:
+has_getenv.c:2:19: warning: ignoring return value of ‘getenv’, declared with attribute warn_unused_result [-Wunused-result]
+    2 | int main(){ (void)getenv(""); return 0; }
+      |                   ^~~~~~~~~~
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_isatty.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_alarm.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_system.c -o linux-x86_64-tmp1056499
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_dlopen.c -o linux-x86_64-tmp1056499
+/usr/bin/ld: /tmp/ccxiiKkD.o: in function `main':
+has_dlopen.c:(.text.startup+0x10): undefined reference to `dlopen'
+/usr/bin/ld: has_dlopen.c:(.text.startup+0x24): undefined reference to `dlsym'
+collect2: error: ld returned 1 exit status
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing has_dlopen.c -o linux-x86_64-tmp1056499 -ldl
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -o linux-x86_64-gmp1056499 gmp_version.c -lgmp
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -o linux-x86_64-gmp1056499 gmp_mismatch.c -lgmp
+xmkmf
+./Configure: 1: eval: xmkmf: not found
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -I/usr/include -o linux-x86_64-X111056499 has_X11.c -lX11
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -o linux-x86_64-rlv1056499 rl_version.c -lreadline
+rl_version.c:2:10: fatal error: readline/readline.h: No such file or directory
+    2 | #include <readline/readline.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -o linux-x86_64-rlv1056499 rl_version.c -lreadline -ltinfow
+rl_version.c:2:10: fatal error: readline/readline.h: No such file or directory
+    2 | #include <readline/readline.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -o linux-x86_64-rlv1056499 rl_version.c -lreadline -ltinfo
+rl_version.c:2:10: fatal error: readline/readline.h: No such file or directory
+    2 | #include <readline/readline.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -o linux-x86_64-rlv1056499 rl_version.c -lreadline -lncursesw
+rl_version.c:2:10: fatal error: readline/readline.h: No such file or directory
+    2 | #include <readline/readline.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -o linux-x86_64-rlv1056499 rl_version.c -lreadline -lncurses
+rl_version.c:2:10: fatal error: readline/readline.h: No such file or directory
+    2 | #include <readline/readline.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+/usr/bin/gcc -O3 -Wall -ffp-contract=off -fno-strict-aliasing -o linux-x86_64-rlv1056499 rl_version.c -lreadline -ltermcap
+rl_version.c:2:10: fatal error: readline/readline.h: No such file or directory
+    2 | #include <readline/readline.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
